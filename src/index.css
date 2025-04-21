@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
+.app {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.task-form input {
+  margin-right: 0.5rem;
+  padding: 0.5rem;
+}
+
+.task-form button {
+  margin-right: 0.5rem;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.task-item.completed h3 {
+  text-decoration: line-through;
+  color: gray;
+}
